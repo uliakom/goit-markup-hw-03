@@ -13,13 +13,13 @@
 </head>
 <body>
 <!----------------- HEADER --------------------->
-    <header>
+    <header class="header">
         <div class="container">
     <nav class="header-nav">  
     <a class="link logo" href="index.html">Web<span class="link logo logo-black">Studio</span></a>
     <ul class="list header-list">
-        <li><a class="link header-link" href="./index.html">Студия</a></li>
-        <li><a class="link header-link current" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="link header-link current" href="./index.html">Студия</a></li>
+        <li><a class="link header-link" href="./portfolio.html">Портфолио</a></li>
         <li><a class="link header-link" href="">Контакты</a></li>
     </ul>
     </nav>
@@ -32,15 +32,16 @@
 <main>
 <!----------------- HERO --------------------->
 <section class="section-hero">
+    <div class="container hero-container">
    
     <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
     
     <button type="button" class="hero-btn">Заказать услугу</button>
-    
+    </div>
 </section>
 
 <!------------------------ ПРИЕМУЩЕСТВА --------------------------------->
-<section>
+<section class="section-benefits">
     <div class="container benefits-container">
     <h2 class="visually-hidden">Преимущества</h2>
     <ul class="benefits-list">
@@ -66,9 +67,9 @@
 
 <!------------------------ ЧЕМ ЗАНИМАЕМСЯ --------------------------------->
 <section class="section-services">
-    
-    <h2 class="services-title">Чем мы занимаемся</h2>
     <div class="container services-container">
+    <h2 class="services-title">Чем мы занимаемся</h2>
+    
     <ul class="services-list"> 
     <li class="services-item">    
 <img src="./images/1.jpg" alt="создания програмного обеспечения для бизнеса" width="370" height="294">
@@ -85,8 +86,10 @@
 
 <!------------------------ КОМАНДА  --------------------------------->
 <section class="section-team">
-    <h2 class="team-main-title">Наша команда</h2>
-    <div class="container team-container">
+    
+    <div class="container team-container">  
+        <h2 class="team-main-title">Наша команда</h2>
+
     <ul class="team-list">
         <li class="team-item">
              <img src="./images/4.jpg" alt="Product Designer" width="270" height="260">
@@ -109,6 +112,7 @@
             <p class="team-text">UI Designer</p>
         </li>
     </ul>
+    
     </div>
 </section>
 <!------------------------ FOOTER --------------------------------->
