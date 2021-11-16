@@ -235,11 +235,11 @@ img {
 
 .section-services {
   text-align: center;
+  padding-bottom: 94px;
 }
 .services-container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 94px;
 }
 
 .services-title {
@@ -264,12 +264,12 @@ img {
 
 .section-team {
   background-color: var(--second-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-container {
   display: flex;
   flex-direction: column;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-main-title {
